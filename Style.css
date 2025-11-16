@@ -1,0 +1,121 @@
+/* Basic Reset and Font */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f2f5; /* Light grey background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; /* Space from the top */
+    min-height: 100vh;
+}
+
+/* Logo Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #173f62; /* Darker blue for GCBank */
+    margin-bottom: 25px;
+}
+.logo-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #007bff; /* Accent blue */
+}
+
+/* Main Login Card */
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 380px; /* Max width for mobile-style card */
+    text-align: center;
+}
+
+/* Headings and Paragraphs */
+h2 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+.login-container > p {
+    color: #6c757d;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Form Elements */
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Forgot Password Link */
+.forgot-password {
+    text-align: right;
+    display: block;
+    font-size: 0.9rem;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: -10px; /* Pull it up closer to the password field */
+    margin-bottom: 20px;
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Sign In Button */
+.sign-in-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+.sign-in-button:hover {
+    background-color: #0056b3;
+}
+
+/* Sign Up Prompt */
+.signup-prompt {
+    margin-top: 25px;
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+.signup-prompt a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.signup-prompt a:hover {
+    text-decoration: underline;
+}
